@@ -1,0 +1,51 @@
+:root {
+  --radius: 5px;
+  --padding: 10px;
+}
+.container {
+  display: grid;
+  border: 1px solid black;
+  font-weight: 800;
+  text-transform: uppercase;
+  grid-gap: 10px;
+  height: 100vh;
+  text-align: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ;
+}
+#content1 {
+  background-color: lightblue;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
+#content2 {
+  background-color: pink;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
+#content3 {
+  background-color: lightgreen;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
+#content4 {
+  background-color: lightblue;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
+#content5 {
+  background-color: pink;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
+#content6 {
+  background-color: lightcyan;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
+#content7 {
+  background-color: lightcoral;
+  border-radius: var(--radius);
+  padding: var(--padding);
+}
