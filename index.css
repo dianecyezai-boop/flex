@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /*background-color:black;*/
+}
+
+.container {
+  border: 10px solid black;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: start;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  order: 0;
+  justify-content: space-evenly;
+}
+.item 
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  border-radius: 15px;
+}
+#item-1 {
+  background-color: red;
+}
+#item-2 {
+  background-color: blue;
+}
+#item-3 {
+  background-color: green;
+}
+#item-4 {
+  background-color: yellow;
+}
+
+#item-5 {
+  background-color: red;
+}
+#item-6 {
+  background-color: blue;
+}
+#item-7 {
+  background-color: green;
+}
+#item-8 {
+  background-color: yellow;
+}
+#item-9 {
+  background-color: red;
+}
+#item-10 {
+  background-color: blue;
+}
